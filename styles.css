@@ -1,0 +1,52 @@
+body {
+  display: block;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  -webkit-transition: width 2s ease-in-out;
+  transition: width 2s ease-in-out;
+  display: block;
+  margin-left: auto;
+}
+
+div:hover {
+  width: 300px;
+}
+
+.social__blog {
+  background: #e17b77;
+  color: whitesmoke;
+  width: 60px;
+  height: 60px;
+}
+
+.social__twitter {
+  background-color: #00aced;
+  color: whitesmoke;
+}
+
+.social__linkedin {
+  background-color: #007bb6;
+  color: whitesmoke;
+}
+
+.social__facebook {
+  background-color: #3b5998;
+  color: whitesmoke;
+}
+
+.social__github {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+i {
+  margin-left: 5px;
+}
+
+span {
+  width: 70%;
+}
+/*# sourceMappingURL=styles.css.map */
